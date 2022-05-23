@@ -25,13 +25,23 @@ export const Navbar = () => {
 
         <button 
         className="navbar-toggler btn btn-outline-secondary my-2 my-sm-0 text-white" 
+        onClick={() => navigate("/formulario")}
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarColor01"
+        aria-controls="navbarColor01"
+        aria-expanded="true"
+        aria-label="Toggle navigation"
+        >Cadastro</button>
+
+        <button 
+        className="navbar-toggler btn btn-outline-secondary my-2 my-sm-0 text-white" 
         onClick={() => navigate("/gerenciador")}
         data-bs-toggle="collapse"
         data-bs-target="#navbarColor01"
         aria-controls="navbarColor01"
         aria-expanded="true"
         aria-label="Toggle navigation"
-        >Clique aqui para começar</button>
+        >Gerencie</button>
 
 <div className="collapse navbar-collapse" id="navbarColor01">
 <ul className="navbar-nav me-auto">
@@ -44,8 +54,13 @@ export const Navbar = () => {
             
             <button 
             className="btn btn-outline-secondary my-2 my-sm-0" 
+            onClick={() => navigate("/formulario")}
+            >Cadastre</button>
+
+            <button 
+            className="btn btn-outline-secondary my-2 my-sm-0" 
             onClick={() => navigate("/gerenciador")}
-            >Clique aqui para começar</button>
+            >Gerencie</button>
     
     </div>
     </div>

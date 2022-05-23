@@ -10,7 +10,7 @@ export const Inicio = () => {
             <h1 className="text-center my-5">Seja Bem-vindo a Ilegra!</h1>
             <h2 className="text-center my-5">Adicione o seu currículo ao nosso banco de talentos!</h2>
                 <div class="d-grid gap-2">
-                <button class="btn btn-primary" type="button" onClick={() => navigate("/gerenciador")}>Vamos começar?</button>
+                <button class="btn btn-primary" type="button" onClick={() => navigate("/formulario")}>Vamos começar?</button>
 
                 </div>
         </div>
