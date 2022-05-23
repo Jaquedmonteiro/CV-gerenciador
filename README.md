@@ -5,6 +5,11 @@ Criação de um gerenciador de currículos, com a possibilidade de criar formul�
 Deploy do projeto feito no Netfily: [clique aqui](https://cv-jaquelinedomingues.netlify.app/).
 Este projeto foi desenvolvido com [Create React App](https://github.com/facebook/create-react-app) em Javascript, utilizando npm.
 
+## Próximas Implementaçõess
+1. Colocar funcionalidades nos botões. 
+2. Importar/exportar arquivo JSON.
+3. Implementação do LocalStorage.
+
 ## Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
